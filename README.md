@@ -6,11 +6,6 @@ Welcome to the **Investment Research Portfolio** project! This repository showca
 
 - [Introduction](#introduction)
 - [Investment Philosophy](#investment-philosophy)
-- [Portfolio Overview](#portfolio-overview)
-- [Stock Analyses](#stock-analyses)
-  - [Amazon.com, Inc. (AMZN)](#amazoncom-inc-amzn)
-  - [Alibaba Group Holding Limited (BABA)](#alibaba-group-holding-limited-baba)
-  - [ASML Holding N.V. (ASML)](#asml-holding-nv-asml)
 - [Templates](#templates)
 - [Usage](#usage)
 - [Contributing](#contributing)
