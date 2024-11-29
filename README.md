@@ -31,32 +31,6 @@ My investment approach is grounded in **long-term value investing**, focusing on
 - Maintaining a **concentrated portfolio** to capitalize on high-conviction ideas.
 - Emphasizing **risk management** by understanding potential downsides.
 
-## Portfolio Overview
-
-The portfolio is composed of carefully selected stocks across various industries and geographies, all aligned with the value investing philosophy. The current focus is on companies with significant growth potential and robust market positions.
-
-## Stock Analyses
-
-### Amazon.com, Inc. (AMZN)
-
-- **Sector**: E-commerce, Cloud Computing
-- **Analysis Report**: [Amazon Analysis](reports/amazon_analysis.pdf)
-- **Summary**: Amazon's diversified business model and market leadership position it for sustained long-term growth, making it a valuable addition to a value-focused portfolio.
-
-### Alibaba Group Holding Limited (BABA)
-
-- **Sector**: E-commerce, Technology
-- **Analysis Report**: [Alibaba Analysis](reports/alibaba_analysis.pdf)
-- **Summary**: Despite regulatory challenges, Alibaba's dominant market share and growth prospects in China's digital economy offer compelling investment opportunities.
-
-### ASML Holding N.V. (ASML)
-
-- **Sector**: Semiconductor Equipment
-- **Analysis Report**: [ASML Analysis](reports/asml_analysis.pdf)
-- **Summary**: ASML's technological leadership in EUV lithography provides a significant competitive edge, essential for the advancement of the semiconductor industry.
-
-*(Additional stock analyses can be added in a similar format.)*
-
 ## Templates
 
 This repository also includes LaTeX templates designed for investment research:
