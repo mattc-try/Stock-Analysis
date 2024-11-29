@@ -1,0 +1,152 @@
+\documentclass[12pt]{report}
+
+% Packages
+\usepackage{geometry}        % Adjust margins
+\usepackage{graphicx}        % Include graphics
+\usepackage{amsmath}         % Advanced math typesetting
+\usepackage{booktabs}        % Professional-quality tables
+\usepackage{hyperref}        % Hyperlinks
+\usepackage{fancyhdr}        % Custom headers and footers
+\usepackage{longtable}       % Tables that span multiple pages
+\usepackage{titlesec}        % Customize section titles
+\usepackage{tocloft}         % Customize table of contents
+\usepackage{chngcntr}        % Change counter for figures and tables
+
+% Page Setup
+\geometry{
+    a4paper,
+    left=25mm,
+    right=25mm,
+    top=25mm,
+    bottom=25mm,
+}
+
+% Header and Footer
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Long-Term Value Investing Portfolio}
+\rhead{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+% Section Formatting
+\titleformat{\chapter}{\LARGE\bfseries}{\thechapter}{1em}{}
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{1em}{}
+
+% Table of Contents Formatting
+\renewcommand{\cftchapleader}{\cftdotfill{\cftdotsep}}
+\setlength{\cftbeforechapskip}{1.0em}
+
+% Reset figure and table counters for each chapter
+\counterwithin{figure}{chapter}
+\counterwithin{table}{chapter}
+
+% Document
+\begin{document}
+
+% Title Page
+\begin{titlepage}
+    \centering
+    \vspace*{2cm}
+    {\huge\bfseries Long-Term Value Investing Portfolio Analysis\par}
+    \vspace{1.5cm}
+    {\Large Your Name\par}
+    \vfill
+    {\large \today\par}
+\end{titlepage}
+
+% Abstract
+\begin{abstract}
+\noindent
+A concise summary of your portfolio analysis, highlighting your investment philosophy, key portfolio components, and expected outcomes.
+\end{abstract}
+
+% Table of Contents
+\tableofcontents
+\newpage
+
+% Introduction
+\chapter{Introduction}
+\section{Investment Philosophy}
+Describe your long-term value investing philosophy and how it shapes your investment decisions.
+
+\section{Portfolio Overview}
+Provide an overview of your concentrated portfolio, including your objectives and the rationale behind selecting these 10 stocks.
+
+% Stock Analyses
+\chapter{Stock Analyses}
+
+% Custom Command for Stock Sections
+\newcommand{\stock}[2]{
+    \chapter{#1}
+    \section{Company Overview}
+    Offer background information on #1, including its history, business model, and revenue streams.
+
+    \section{Industry Analysis}
+    Examine the industry landscape for #1, including market trends and the company's competitive position.
+
+    \section{Investment Thesis}
+    Clearly articulate why #1 is a strong candidate for your portfolio.
+
+    \section{Financial Analysis}
+    \subsection{Historical Financial Performance}
+    Analyze #1's past financial statements, focusing on trends in revenue, net income, and cash flow.
+
+    \subsection{Key Financial Ratios}
+    Present and interpret key financial ratios for #1, such as P/E, ROE, ROA, and debt-to-equity.
+
+    \section{Intrinsic Valuation}
+    \subsection{Discounted Cash Flow (DCF) Analysis}
+    Detail your DCF model for #1, including assumptions, calculations, and results.
+
+    \subsection{Comparable Company Analysis}
+    Compare #1's valuation metrics with those of its peers.
+
+    \section{Risk Analysis}
+    Identify and discuss the primary risks associated with investing in #1.
+
+    \section{Conclusion}
+    Summarize your findings for #1 and restate your investment rationale.
+}
+
+% Include analyses for each stock
+\stock{Stock 1 Name}{Ticker1}
+\stock{Stock 2 Name}{Ticker2}
+\stock{Stock 3 Name}{Ticker3}
+\stock{Stock 4 Name}{Ticker4}
+\stock{Stock 5 Name}{Ticker5}
+\stock{Stock 6 Name}{Ticker6}
+\stock{Stock 7 Name}{Ticker7}
+\stock{Stock 8 Name}{Ticker8}
+\stock{Stock 9 Name}{Ticker9}
+\stock{Stock 10 Name}{Ticker10}
+
+% Portfolio Analysis
+\chapter{Portfolio Analysis}
+\section{Aggregate Portfolio Metrics}
+Discuss overall portfolio metrics, such as weighted average P/E ratio, dividend yield, and expected growth rates.
+
+\section{Diversification and Allocation}
+Analyze how your portfolio is diversified across sectors, industries, or geographies.
+
+\section{Risk Management}
+Explain your strategies for managing risks at the portfolio level.
+
+\section{Expected Performance}
+Project the expected performance of your portfolio based on your analyses.
+
+% Conclusion
+\chapter{Conclusion}
+Summarize your investment strategy, key insights from your analyses, and the anticipated benefits of your long-term, value-focused approach.
+
+% References
+\chapter{References}
+\bibliographystyle{plain}
+\bibliography{references}
+
+% Appendices
+\appendix
+\chapter{Appendix}
+Include supplementary materials like detailed financial models, additional charts, or raw data that support your analyses.
+
+\end{document}
