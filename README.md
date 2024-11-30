@@ -26,6 +26,16 @@ My investment approach is grounded in **long-term value investing**, focusing on
 - Maintaining a **concentrated portfolio** to capitalize on high-conviction ideas.
 - Emphasizing **risk management** by understanding potential downsides.
 
+
+## Categories
+- Slow Growers: Quite flat earnigns generous and regular divident, dividend safety low payou is less risky than high. (both div and stock), Usually not a BUY if there is no perspective to turn around or new exciting thing. Apple recently
+- Stalwarts: grow faster than slow growers 6-12 percent growth, no real miracles here, spike in price are a sell won't justify earnings growth. Can be owned as they are a good protection in a recession, check previous. Make 30-50% then sell.
+- Fast Growers: Life changers 20-25% per year not higher, higher are hyped stocks which are very risky and have competition. if grows slows down market with go south, finances have to be very good with substantial profits. At some point they will stop growing its important to think about that check room for growth. Proven expansion in more than one city or country. PE below growth rate. Rare companies.
+- Cyclicals: They follow the economy, suffer when economy is bad 50% down or more if at wrong part of the cycle. Timing is everything look at inventories. Stock declines at peak earning when people expect a recession, worst slum better recovery. Upturn easier to predict than downturn usually those are the airlines car manifacturers chemicals ect...
+- Turnarounds: close to bankrupcy there is fear for it but when the fear eases the stock explodes everything is rerated. Understand if issues are big as perceived or not. And can the company survive a raid from creditors, how can it turn around? Restructuring is not good. Effects of cutting costs?
+- Asset Plays: A company sitting on something valuable that the market is overlooking or it hasn't yet started to print cash. The asset can be cash real estate een accounting losses inventory number of users ect... Know the asset be patient, look at debt and management.
+
+
 ## Templates
 
 This repository also includes LaTeX templates designed for investment research:
@@ -42,7 +52,7 @@ Templates are located in the `templates` directory:
 
 ### Viewing Reports
 
-Compiled PDF reports are available in the `reports` directory. To view a report:
+Compiled PDF reports are available in the `reports` directory. To view a report, its only the templates and the main portfolio outlook:
 
 1. Navigate to the `reports` folder.
 2. Open the desired PDF file (e.g., `amazon_analysis.pdf`).
